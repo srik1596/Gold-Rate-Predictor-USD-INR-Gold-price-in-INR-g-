@@ -1,2 +1,18 @@
-# Gold-Rate-Predictor-USD-INR-Gold-price-in-INR-g-
-This Gold Rate Prediction project delivers a lightweight, user-friendly tool for real-time gold price estimates in India, abstracting away the complexity of model training and data pipelines. Users only need the current exchange rate to get fast, reliable predictions.
+# Gold Rate Predictor (INR per gram from USD→INR exchange rate)
+
+A simple machine learning project that predicts the current gold price per gram in Indian Rupees from the USD→INR exchange rate, powered by a trained linear regression model and deployed with a Gradio interface.
+
+## 🚀 Project Overview
+
+- **Motivation**: Gold rate in India closely tracks USD→INR exchange rates. This tool provides quick gold price estimates (₹/g) based on the latest exchange rate.
+- **Features**:
+  - Automated data collection via **yfinance**
+  - Conducted EDA and handled outliers
+  - Trained a **linear regression** model with **hyperparameter tuning**
+  - Deployed a **Gradio UI** for real-time interaction
+  - Basic **MLOps practices** integrated (artifact management, reproducibility)
+
+---
+
+
+
